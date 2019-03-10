@@ -1,0 +1,163 @@
+/*Medium Layout : 1280px */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+.services-area h3 {
+  font-size: 20px;
+}
+
+}
+
+
+/* Tablet Layout : 768px */
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+/*  .mainmenu li a {
+        font-size: 14px;
+        padding: 30px 0px 30px 16px;
+    }
+    .is-sticky .mainmenu li a {
+        padding: 20px 0px 20px 16px;
+  } */
+.protfolio-list-cat ul li {
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.services-area .section-title {
+  margin-bottom: 30px;
+}
+.single-services {
+  margin-top: 30px;
+}
+.single-resume-item h4 {
+  font-size: 18px;
+}
+.single-resume-item i {
+  font-size: 20px;
+}
+.counter-area.section-padding {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.single-counter {
+  margin-bottom: 30px;
+}
+.blog-meta ul {
+  margin-left: -10px;
+}
+.blog-meta ul li {
+  margin-left: 10px;
+}
+.single-blog-item h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.contact-info h3 {
+  font-size: 20px;
+}
+.contact-info .group-control textarea {
+  height: 150px !important;
+}
+
+}
+
+/* Mobile Layout : 320px */
+
+@media only screen and (max-width: 767px) { 
+.home-slide-wrapper .owl-nav div {
+  display: none;
+}
+.single-slider h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.single-slider h1 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  line-height: 26px;
+}
+.navbar-brand { 
+    color: #333 !important;
+    padding: 15px 0px;
+    font-size: 20px;
+}  
+.is-sticky .navbar-brand { 
+    color: #333 !important;
+    padding: 15px 0px;
+}
+.is-sticky .mainmenu li a {
+    padding: 12px 15px;
+}
+.mainmenu li a {
+    padding: 10px 15px;
+}
+.navbar-nav > li > a {
+    line-height: 12px;
+}
+.nav.navbar-nav.navbar-right {
+  text-align: center;
+}
+.section-title p {
+  margin: 0 auto;
+  width: 100%;
+  font-size: 14px;
+}
+.button {
+  padding: 10px 22px;
+}
+.single-about-me h2 {
+  margin-top: 25px;
+}
+.services-area .section-title{
+  margin-bottom: 30px;
+}
+.single-services {
+  margin-top: 30px;
+}
+.counter-area.section-padding {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.single-counter {
+  margin-bottom: 30px;
+}
+.promo-contact {
+  margin-top: 30px;
+  text-align: center;
+}
+.single-promo {
+  text-align: center;
+}
+.resumue-list-item {
+  margin-top: 30px;
+}
+.resume-area .section-title  {
+  margin-bottom: 30px;
+}
+.blog-area .section-title {
+  margin-bottom: 30px;
+}
+.single-blog-item {
+  margin-top: 30px;
+}
+.contact-area.section-padding {
+  padding-top: 0px;
+  padding-bottom: 70px;
+}
+.contact-info {
+  margin-top: 70px;
+}
+.contact-info h3 {
+  font-size: 16px;
+}
+
+
+}
+
+
+
+/*Wide mobile layout : 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

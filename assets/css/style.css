@@ -1,0 +1,1073 @@
+/*
+Author       : Mohammad Shahaparan Mojumder
+Template Name: PORAN RESUME & MINIMAL PORTFOLIO RESPONSIVE HTML TEMPLATE 
+Version      : 1.0
+*/
+
+
+/*============================================================
+    CSS TABLE OF CONTENTS
+==============================================================
+    01. GENAREL CSS STYLE
+    02. PRELOADER STYLE
+    02. START SECTION TITLE STYLE
+    03. START BUTTON CSS STYLE
+    04. START HEADER CSS STYLE
+    05. START NAVIGATION CSS STYLE
+    06. START SLIDER BACKGROUND CSS STYLE
+    07. START ABOUT CSS STYLE
+    08. START SERVICES CSS STYLE
+    09. START PORTFOLIO CSS STYLE
+    10. START PROMO MEMBER CSS STYLE
+    11. START RESUME CSS STYLE
+    12. START TESTIMONIAL CSS STYLE
+    13. START FUN AND FACTS CSS STYLE
+    14. START BLOG CSS STYLE
+    15. START PARTNER CSS STYLE
+    16. START CONTACT CSS STYLE
+    16. START FOOTER CSS STYLE
+    17. START HOVER CSS STYLE
+    18. START BLOG PAGE CSS STYLE
+    19. START SINGLE BLOG PAGE CSS STYLE
+    20. START COMMENT FORM CSS STYLE
+*   21. COMMENT PAGE  CSS STYLE
+/*
+* --------------------------------
+*    01. GENAREL CSS STYLE
+* -------------------------------
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 15px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover,
+a,
+a:focus {
+    transition: .2s;
+    text-decoration: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+html,
+body {
+    height: 100%
+}
+
+.section-padding {
+    padding: 70px 0px;
+}
+
+body {
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 28px;
+    width: 100%;
+    color: #6c6c6c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+/*
+* --------------------------------
+*   02. SECTION TITLE CSS STYLE
+* -------------------------------
+*/
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.section-title p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+/*
+* --------------------------------
+*   03. BUTTON TITLE CSS STYLE
+* -------------------------------
+*/
+
+.button {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #333;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.button:hover {
+    background: #333 none repeat scroll 0 0;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+/*
+* --------------------------------
+*    04. HEADER CSS STYLE
+* -------------------------------
+*/
+
+.header-area {}
+
+.header-top-area {
+    position: relative;
+    background: #fff;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: all 0.36s ease-out;
+    transition: all 0.36s ease-out;
+}
+
+.sticky-wrapper {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+
+/*
+* --------------------------------
+*    05. NAVIGATION CSS STYLE
+* -------------------------------
+*/
+
+.navbar-default {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 0;
+    margin-bottom: 0;
+    -webkit-transition: all 0.36s ease-in-out 0s;
+    transition: all 0.36s ease-in-out 0s;
+    width: 100%;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: transparent
+}
+
+.navbar-default .navbar-brand {
+    color: #333;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    -webkit-transition: 0.36s;
+    transition: 0.36s;
+    font-size: 24px;
+    padding: 30px 0px;
+    height: 0px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #fff
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333
+}
+
+.mainmenu li a {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    -webkit-transition: all 0.36s ease-in-out 0s;
+    transition: all 0.36s ease-in-out 0s;
+    padding: 30px 0px 30px 30px;
+    color: #333 !important;
+}
+
+.mainmenu ul.nav.navbar-nav li a:hover {
+    color: #198CE7 !important
+}
+
+.navbar-default .navbar-toggle {
+    background: #fff none repeat scroll 0 0
+}
+
+.is-sticky .header-top-area {
+    background: #fff;
+    box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+}
+
+.is-sticky .mainmenu li a {
+    padding: 20px 0px 20px 30px;
+    color: #333 !important;
+    -webkit-transition: all 0.36s ease-in-out 0s;
+    transition: all 0.36s ease-in-out 0s;
+}
+
+.is-sticky .mainmenu ul.nav.navbar-nav li.active a {
+    color: #333 !important;
+}
+
+.is-sticky .navbar-brand {
+    color: #333 !important;
+    font-size: 20px;
+    padding: 20px 0;
+    -webkit-transition: all 0.36s ease-in-out 0s;
+    transition: all 0.36s ease-in-out 0s;
+}
+
+
+/*
+* --------------------------------
+*    06. SLIDER CSS STYLE
+* -------------------------------
+*/
+
+.home-slide-wrapper {
+    height: 670px;
+    position: relative;
+}
+
+.slider-bg-1 {
+    background: url(../img/f-1.jpg) no-repeat scroll 0 0/cover;
+}
+
+.single-slider-content {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#slider-wrapper {
+    position: relative;
+}
+
+.single-slider h3 {
+    color: #fff;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.single-slider h1 {
+    color: #fff;
+    margin: 0px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.single-slider a.button {
+    margin-top: 50px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+}
+
+.single-slider a.button:hover {
+    border: 1px solid #333;
+}
+
+.home-slide-wrapper .owl-nav div {
+  background: #198ce7 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 25px;
+  height: 50px;
+  left: 30px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 50px;
+}
+
+.home-slide-wrapper .owl-nav div.owl-next {
+    right: 30px;
+    left: auto;
+}
+
+
+/*
+* --------------------------------
+*    07. ABOUT ME CSS STYLE
+* -------------------------------
+*/
+
+.about-me {}
+
+.single-about-me {}
+
+.single-about-me img {
+    border: 5px solid #f6f6f6;
+    width: 100%;
+}
+
+.single-about-me {}
+
+.single-about-me h2 {
+    color: #333;
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.single-about-me p {
+    margin-bottom: 15px;
+}
+
+.single-about-me .button {
+    border: 1px solid #333;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.button.color-black {
+    background: #198ce7;
+    border: 1px solid #198ce7;
+    color: #fff;
+}
+
+
+/*
+* --------------------------------
+*    08.servics CSS STYLE
+* -------------------------------
+*/
+
+.services-area {}
+
+.single-services {
+    background: #fff;
+    padding: 30px 15px;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    transition: all 2s ease-in-out;
+}
+
+.single-services.active {
+    border-bottom: 2px solid #333;
+}
+
+.single-services:hover {
+    border-bottom: 2px solid #333;
+}
+
+.icon-box {}
+
+.icon-box i {
+    font-size: 25px;
+    color: #333;
+}
+
+.single-services h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.single-services p {
+    font-size: 14px;
+    color: #333;
+}
+
+.services-area {
+    background: #f6f6f6;
+}
+
+
+/*
+* --------------------------------
+*    09. PORTFOLIO CSS STYLE
+* -------------------------------
+*/
+
+.protfolio-area {
+    padding: 80px 0px;
+}
+
+.protfolio-list-cat {}
+
+.protfolio-list-cat ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.protfolio-list-cat ul li {
+    display: inline-block;
+    color: #6c6c6c;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 20px
+}
+
+.protfolio-list-cat ul li:before {
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    content: "";
+    background: #198CE7;
+}
+
+.protfolio-list-cat ul li.active {}
+
+.single-portfolio-item {
+    margin-top: 30px;
+}
+
+.single-portfolio-item-img {
+    position: relative;
+}
+
+.single-portfolio-item-img:before {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 96%;
+    height: 96%;
+    content: "";
+    background: #fff;
+    opacity: .6;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+}
+
+.single-portfolio-item:hover .single-portfolio-item-img:before {
+    transform: scale(.9);
+}
+
+.single-portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+.single-portfolio-item-img img {
+    width: 100%;
+}
+
+.single-portfolio-item-img img {}
+
+.portfolio-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.portfolio-overlay h3 {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.portfolio-overlay a {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.mix {
+    display: none;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+/*
+* --------------------------------
+*    10 . PROMO CSS STYLE
+* -------------------------------
+*/
+
+.promo-area {
+    background: #333 none repeat scroll 0 0;
+    padding: 40px 0px;
+}
+
+.promo-contact {
+    text-align: right;
+    margin-top: 6px;
+}
+.promo-area .button {
+  background: #198ce7 none repeat scroll 0 0;
+  border: 1px solid #333;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+}
+.single-promo>h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.single-promo>p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/*
+* --------------------------------
+*    11. RESUME CSS STYLE
+* -------------------------------
+*/
+
+.resume-area {
+    background: #f6f6f6;
+}
+
+.resumue-list-item {}
+
+.resumue-list-item h3 {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.resumue-list-item i {
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.single-resume-item {
+    padding: 15px 30px;
+    margin-top: 30px;
+    background: #fff;
+    position: relative;
+    border: 1px solid #ddd;
+    border-bottom: 0px solid transparent;
+}
+.single-resume-item:hover{
+   border-bottom: 0px solid #198CE7;
+}
+
+.single-resume-item ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.single-resume-item ul li {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.single-resume-item h4 {
+    font-size: 20px;
+    color: #198CE7;
+    margin: 15px 0px;
+    text-transform: capitalize;
+}
+
+.single-resume-item i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.single-resume-item a {
+    margin-top: 15px;
+    display: inline-block;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.single-resume-item p {
+    font-size: 14px;
+}
+
+
+/*
+* --------------------------------
+*    12. TESTIMONAIL CSS STYLE
+* -------------------------------
+*/
+
+.client-info-items-area {}
+
+.client-info-items {}
+
+.client-info {
+    border: 1px solid transparent;
+    font-size: 14px;
+    margin-bottom: 50px;
+    padding: 25px 50px 25px 50px;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+    z-index: 1;
+    background: #f6f6f6;
+}
+
+.client-info::before {
+    border-color: transparent #198CE7 #198CE7 transparent;
+    border-style: solid;
+    border-width: 10px;
+    bottom: -10px;
+    content: "";
+    height: 20px;
+    left: 20px;
+    opacity: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out 0s;
+    width: 20px;
+    z-index: -1;
+}
+
+.client-info-items:hover .client-info::before {
+    opacity: 1;
+}
+
+.client-info-items:hover .client-info {
+    border: 1px solid #198CE7;
+}
+
+.client-info p {
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+}
+
+.client-info p:before {
+    position: absolute;
+    top: 0px;
+    left: -30px;
+    width: 100%;
+    height: 100%;
+    content: "\f10d";
+    font-family: fontawesome;
+    font-size: 25px;
+}
+
+.client {
+    overflow: hidden;
+}
+
+.client-img {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 15px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 50px;
+}
+
+.client-img img {
+    border: 1px solid transparent;
+}
+
+.client-info-items:hover .client-img img {
+    border: 1px solid #198CE7;
+}
+
+.client h3 {
+    color: #333;
+    font-size: 22px;
+    margin: 0;
+    text-transform: capitalize
+}
+
+.client span {
+    color: #333;
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+
+/*
+* --------------------------------
+*    13. COUNTER CSS STYLE
+* -------------------------------
+*/
+
+.counter-area {
+    background: #F6F6F6;
+}
+
+.single-counter {
+    text-align: center;
+}
+
+.single-counter h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 15px 0px;
+    color: #198ce7;
+}
+
+.single-counter h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.single-counter i {
+    font-size: 30px;
+    color: #333;
+}
+
+
+/*
+* --------------------------------
+*   14. BLOG CSS STYLE
+* -------------------------------
+*/
+
+.blog-area {}
+
+.single-blog-item {}
+
+.single-blog-item img {
+    width: 100%;
+}
+
+.blog-meta {
+    margin: 15px 0px;
+}
+
+.blog-meta ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: -30px;
+}
+
+.blog-meta ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.blog-meta ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+.blog-meta ul li a {
+    color: #198ce7;
+}
+
+.blog-meta ul li a i {
+    margin-right: 5px;
+}
+
+.blog-meta ul li a:hover {
+    color: #198ce7;
+}
+
+.single-blog-item a {
+    display: inline-block;
+}
+
+.single-blog-item h2 {
+    font-size: 26px;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.single-blog-item p {
+    font-size: 16px;
+}
+.single-blog-item a.blog-button {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 25px;
+    -webkit-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>, <number>, <number>, <number>);
+    -moz-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>, <number>, <number>, <number>);
+    -ms-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>, <number>, <number>, <number>);
+    -o-transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>, <number>, <number>, <number>);
+    transition: all .25s ease|linear|ease-in|ease-out|ease-in-out|cubic-bezier(<number>, <number>, <number>, <number>);
+}
+
+.single-blog-item a:hover.blog-button {
+    color: #333;
+}
+.single-blog-item a:hover.blog-button:hover{
+    color: #198ce7;
+}
+.single-blog-item a .hvr-underline-from-left::before {
+  background: #2098d1 none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 100%;
+  transition-duration: 0.3s;
+  transition-property: right;
+  transition-timing-function: ease-out;
+  z-index: -1;
+}
+
+.single-blog-item a.blog-button i {
+    margin-right: 5px;
+}
+
+
+/*
+* --------------------------------
+*    15 PARTNER CSS STYLE
+* -------------------------------
+*/
+
+.partner-area {
+    background: #F6F6F6;
+}
+
+.single-partner {}
+
+.single-partner img {}
+
+
+/*
+* --------------------------------
+*   16. CONTACT CSS STYLE
+* -------------------------------
+*/
+
+.contact-area {}
+
+.contact-info .group-control {
+    margin-bottom: 25px;
+}
+
+.contact-info .group-content {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+}
+
+.contact-info .group-control textarea {
+    outline: none;
+    height: 125px !important;
+    resize: none;
+}
+
+.send-message input[type="submit"] {
+    width: 250px;
+    height: 60px;
+    border: none;
+    background: none;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+    transition: all .3s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.send-message input[type="submit"]:hover {
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.contact-info {}
+
+.contact-info h3 {
+    font-size: 22px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contact-info-list {
+    border: 1px solid #ddd;
+    box-shadow: 0px 5px 5px -5px #ddd;
+    padding: 15px 30px;
+}
+
+.single-contact-info {
+    padding: 15px 0px;
+}
+
+.single-contact-info i.fa {
+    float: left;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #198ce7;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.single-contact-info p {
+    padding-left: 31px;
+}
+
+
+/*
+* --------------------------------
+*    18. FOOTER CSS STYLE
+* -------------------------------
+*/
+
+.footer-area {
+    padding: 40px 0px;
+    background: #ebebeb;
+}
+
+.logo-footer {}
+
+.logo-footer a {
+    font-size: 28px;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+}
+
+.social-media {
+    margin: 15px 0px;
+    ;
+}
+
+.social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #6c6c6c;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+
+/*-------------COLOR CSS---------------- */
+
+.twitter:hover {
+    color: #1DA1F2;
+}
+
+.facebook:hover {
+    color: #3B5998;
+}
+
+.google:hover {
+    color: #DF4B37;
+}
+
+.instagram:hover {
+    color: #bc2a8d;
+}
+
+.youtube:hover {
+    color: #E62117;
+}
+
+.copyright p {
+    font-size: 16px;
+}
+
+.copyright a {
+    color: #333;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+}
